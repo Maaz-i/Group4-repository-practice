@@ -1,0 +1,324 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+p{
+    color: gray;
+}
+header{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 50px;
+    align-items: center;
+    width: 100%;
+    gap: 500px;
+
+}
+.nav-ul{
+    list-style: none;
+    display: flex;
+    gap: 70px;
+    font-size: 13px;
+    align-items: center;
+    width: 100%;
+}
+.hero-1{
+    display: flex;
+    width: 100%;
+}
+
+.section1{
+    padding: 100px 50px;
+}
+.section1 button{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+    border: none;
+}
+.alone{
+    padding: 50px;
+}
+.hero-2{
+    display: flex;
+    list-style: none;
+}
+.hero-3 {
+    position: relative;
+    margin-left: 80px;
+    overflow: hidden;
+    height: 1100px;
+}
+.place1{
+    position: absolute;
+    top: 450px;
+}
+.place2{
+    position: absolute;
+    top: 550px;
+    left: 30px;
+}
+.place3{
+    width: 25%;
+    background-color: white;
+    border-radius: 30px;
+    position: relative;
+    left: 490px;
+    top: 220px;
+    z-index: 100;
+    height: 379px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.24);
+}
+.place-3-1{
+    position: relative;
+    left: 30%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.place-3-2{
+    position: absolute;
+    top: 20%;
+    left: 20px;
+}
+.place-3-3{
+    text-align: center;
+    font-size: 30px;
+}
+.place4{
+    width: 25%;
+    background-color: white;
+    border-radius: 30px;
+    position: relative;
+    left: 840px;
+    bottom: 250px;
+    z-index: 100;
+    height: 379px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.24);
+}
+.place-4-1{
+    position: relative;
+    left: 30%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.place-4-2{
+    position: absolute;
+    top: 20%;
+    left: 20px;
+}
+.place-4-3{
+    text-align: center;
+    font-size: 30px;
+}
+.place5{
+    width: 25%;
+    background-color: white;
+    border-radius: 30px;
+    position: relative;
+    left: 490px;
+    bottom: 130px;
+    z-index: 100;
+    height: 379px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.24);
+}
+.place-5-1{
+    position: relative;
+    left: 30%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.place-5-2{
+    position: absolute;
+    top: 20%;
+    left: 20px;
+}
+.place-5-3{
+    text-align: center;
+    font-size: 30px;
+}
+.place6{
+    width: 25%;
+    background-color: white;
+    border-radius: 30px;
+    position: relative;
+    left: 840px;
+    bottom: 600px;
+    z-index: 100;
+    height: 379px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.24);
+}
+.place-6-1{
+    position: relative;
+    left: 30%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.place-6-2{
+    position: absolute;
+    top: 20%;
+    left: 20px;
+}
+.place-6-3{
+    text-align: center;
+    font-size: 30px;
+}
+.place7{
+    position: absolute;
+    left: 370px;
+    bottom: 250px;
+    z-index: 1;
+}
+.place8{
+    position: absolute;
+    top: 820px;
+    right: 60px;
+}
+.place9{
+    position: absolute;
+    top: 750px;
+    left: 30px;
+    
+}
+.hero-4{
+    display: flex;
+    position: relative;
+    padding-bottom: 50px;
+    height: 580px;
+}
+.place-10{
+    position: absolute;
+    left: 70px;  
+    z-index: 1;  
+}
+.place-11{
+    position: absolute;
+    right: 20px;
+    padding: 30px;
+    top: 80px;
+    z-index: 1;
+}
+.place-12{
+    position: absolute;
+    left: 350px;
+    top: 170px;
+    z-index: 1;
+}
+.place-13{
+    position: absolute;
+    left: 600px;
+    top: 330px;
+}
+.place-14{
+    position: absolute;
+    right: 370px;
+    top: 90px;
+}
+.header3{
+    text-align: center;
+}
+.hero-5{
+    position: relative;
+    padding: 100px 50px;
+    height: 500px;
+}
+.place-15{
+    position: absolute;
+    left: 100px;
+    z-index: 1;
+}
+.place-16{
+    position: absolute;
+    left: 560px;
+    top: 150px;
+}
+.place-17{
+    display: flex;
+    list-style: none;
+    position: absolute;
+    top: 130px;
+    left: 280px;
+    gap: 20px;
+}
+.place-18{
+    position: absolute;
+    right: 50px;
+    z-index: 1;
+}
+.place-19{
+    position: absolute;
+    top: 250px;
+    left: 100px;
+}
+.place-20{
+    position: absolute;
+    left: 280px;
+}
+.place-21{
+    position: absolute;
+    right: 200px;
+    bottom: 150px;
+}
+.hero-6{
+    position: relative;
+    padding: 50px;
+    height: 400px;
+    border: 1px solid red;
+    
+}
+.place-22{
+    position: absolute;
+    top: 120px;
+    left: 150px;
+    z-index: 100;
+}
+.place-23{
+    position: absolute;
+    z-index: 10;
+}
+.place-24{
+    position: absolute;
+    right: 100px;
+    z-index: 100;
+}
+.place-25{
+    position: absolute;
+    z-index: 100;
+    top: 120px;
+    right: 140px;
+}
+.place-26{
+    position: absolute;
+    top: 200px;
+    left: 10px;
+}
+.place-27{
+    position: absolute;
+    right: 60px;
+    top: 0px;
+}
+#footer{
+    display: flex;
+    justify-content: left;
+    margin-left: 30px;
+    gap: 100px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    border-top: 1px solid #e7e4e4;
+    border-bottom: 5px solid #e7e4e4;
+}
+.footer{
+    padding: 20px;
+
+}
+.fh{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.fn{
+    padding-top: 20px;
+    display: flex;
+    gap: 10px;
+}
