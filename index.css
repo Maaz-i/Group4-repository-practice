@@ -5,6 +5,7 @@
 }
 p{
     color: gray;
+    font-family: arial;
 }
 header{
     width: 80%;
@@ -31,13 +32,23 @@ header{
 
 .section1{
     padding: 100px 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 20px;
+    
 }
 .section1 button{
+    position: absolute;
     background-color: blue;
     color: white;
-    padding: 10px;
+    padding: 10px 20px;
     border-radius: 30px;
     border: none;
+    z-index: 100;
+}
+.img1-image{
+    width: 900px;
+    padding-left: 200px;
 }
 .alone{
     padding: 50px;
@@ -264,8 +275,7 @@ header{
 .hero-6{
     position: relative;
     padding: 50px;
-    height: 400px;
-    border: 1px solid red;
+    height: 500px;
     
 }
 .place-22{
@@ -273,6 +283,9 @@ header{
     top: 120px;
     left: 150px;
     z-index: 100;
+}
+.place-22-2{
+    position: absolute;
 }
 .place-23{
     position: absolute;
@@ -286,8 +299,15 @@ header{
 .place-25{
     position: absolute;
     z-index: 100;
-    top: 120px;
-    right: 140px;
+    top: 140px;
+    right: 230px;
+    background-color: white;
+    padding: 20px 40px;
+    border-radius: 50px;
+    display: flex;
+    gap: 30px;
+    
+
 }
 .place-26{
     position: absolute;
@@ -306,8 +326,9 @@ header{
     gap: 100px;
     padding-bottom: 50px;
     padding-top: 50px;
-    border-top: 1px solid #e7e4e4;
-    border-bottom: 5px solid #e7e4e4;
+    border-top: 1px solid rgba(128, 128, 128, 0.3);
+    border-bottom:  1px solid rgba(128, 128, 128, 0.3);
+    height: 400px;
 }
 .footer{
     padding: 20px;
@@ -318,7 +339,15 @@ header{
     padding-bottom: 20px;
 }
 .fn{
-    padding-top: 20px;
+    padding-top: 100px;
     display: flex;
     gap: 10px;
 }
+.final{
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+
+ 
